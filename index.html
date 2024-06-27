@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader">    
+        <svg class="bike" viewBox="0 0 48 30" width="48px" height="30px">
+    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+        <g transform="translate(9.5,19)">
+            <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+            <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                <circle class="bike__spokes" r="5" />
+                <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+            </g>
+        </g>
+        <g transform="translate(24,19)">
+            <g class="bike__pedals-spin" stroke-dasharray="25.133 25.133" stroke-dashoffset="-21.991" transform="rotate(67.5,0,0)">
+                <circle class="bike__pedals" r="4" />
+                <circle class="bike__pedals" r="4" transform="rotate(180,0,0)" />
+            </g>
+        </g>
+        <g transform="translate(38.5,19)">
+            <circle class="bike__tire" r="9" stroke-dasharray="56.549 56.549" />
+            <g class="bike__spokes-spin" stroke-dasharray="31.416 31.416" stroke-dashoffset="-23.562">
+                <circle class="bike__spokes" r="5" />
+                <circle class="bike__spokes" r="5" transform="rotate(180,0,0)" />
+            </g>
+        </g>
+        <polyline class="bike__seat" points="14 3,18 3" stroke-dasharray="5 5" />
+        <polyline class="bike__body" points="16 3,24 19,9.5 19,18 8,34 7,24 19" stroke-dasharray="79 79" />
+        <path class="bike__handlebars" d="m30,2h6s1,0,1,1-1,1-1,1" stroke-dasharray="10 10" />
+        <polyline class="bike__front" points="32.5 2,38.5 19" stroke-dasharray="19 19" />
+    </g>
+</svg>
+</div>
+    <div class="container-fluid">
+        <header id="head">
+            <div class="logo">
+                    <i class="fa-regular fa-envelope"></i>
+                    <a href="">saravanakumar8787@gmail.com</a>
+            </div>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#status">Status</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#hire" class="btn">Hire Me</a></li>
+                </ul>
+
+            <button id="btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </header>
+       <section class="hero" id="home">
+            <div class="contain">
+                <h1>I am Saravanakumar Soundarapandian</h1>
+                <div class="k1"><p id="web">Hyperion Consultant + Aspiring Data Science</p></div>
+                <p>Experienced Hyperion Consultant specializing in financial planning, budgeting, and data integration solutions.</p>
+                <div class="social-links">
+                    <div class="download">
+                        <a href="https://docs.google.com/document/d/1MAs91jrRI4NQQOMZRk_0_8jEUrU8h4ui/view?usp=drive_link">Download CV&nbsp;&nbsp;<i class="fa-solid fa-download"></i></a>
+                    </div>
+                    <div class="linked">
+                        <a href="https://www.linkedin.com/in/saravanakumar-soundarapandian-20b23133"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="github">
+                        <a href="https://github.com/Saravana-Techway"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="profile.jpg">
+            </div>
+        </section>
+        <section id="works" class="works">
+            <div class="k1"><h2>My Recent Works</h2></div>
+            <div class="work-list">
+                <a href="blog1.html"class="rd">
+                    <div class="work-item wi1">
+                       <div class="yout">
+                            <div class="content">
+                                <h1>Youtube</h1>
+                                <div class="arrow">
+                                    <p>Project for precision and information</p>
+                                    <i class="fa-solid fa-arrow-down-long"></i>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </a>
+                <div class="work-item wi2">
+                <a href="blog2.html"class="rd">
+                    <div class="phone">
+                        <div class="content">
+                            <h1>Phonepe</h1>
+                        <div class="arrow">
+                            <p>Project for precision and information</p>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                        </div>
+                   </div>
+               </a>
+                </div>
+
+                <div class="work-item wi3">
+                <a href="blog3.html" class="rd">
+                    <div class="diabet">
+                        <div class="content">
+                            <h1>First Try</h1>
+                        <div class="arrow">
+                            <p>Diabetes</p>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                        </div>
+                   </div>
+               </a>
+                </div>
+            </div>
+
+        </section>
+        <section id="skills" class="skills">
+            <div class="k1"><h2>My Skills</h2></div>
+            <div class="skill-list">
+                <div class="skill-item">
+                    <img src="hypplan.jpg">
+                </div>
+                <div class="skill-item">
+                    <img src="shell.png">
+                </div>
+                <div class="skill-item">
+                    <img src="python-svgrepo-com.svg">
+                </div>
+                <div class="skill-item sql">
+                    <img src="mysql-svgrepo-com.svg">
+                </div>
+                <div class="skill-item">
+                    <img src="aws-svgrepo-com.svg">
+                </div>
+                <div class="skill-item">
+                    <img src="numpy-svgrepo-com.svg">
+                </div>
+                <div class="skill-item dl">
+                    <img src="deep-learning.png">
+                </div>
+                <div class="skill-item ml">
+                    <img src="machine-learning.png">
+                </div>
+                <div class="skill-item ai">
+                    <img src="artificial-intelligence.png">
+                </div>
+            </div>
+        </section>
+        <div id="resume">
+            <div class="k1">
+                <h2>Resume</h2>
+            </div>
+            <div class="ree">
+            <div class="education">
+                <div class="heading">
+                    <h1>Education</h1>
+                </div>
+                <div class="bred">
+                    <div class="wrap">
+                        <span class="date">2005-2009</span>
+                        <h2>Bachelor of Engineering - CSE </h2>
+                        <span class="position">Anna University</span>
+                    </div>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="heading">
+                    <h1>Experience</h1>
+                </div>
+                <div class="bred">
+                    <div class="wrap">
+                        <span class="date">2011-Present</span>
+                        <h2>Tech Lead</h2>
+                        <span class="position">HCLTECH</span>
+                        <p class="mt-4">HCLTECH is a leading global IT services company providing innovative technology solutions and services to transform businesses.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <section id="Blog" class="works">
+            <div class="k1"><h2>Recent Blogs</h2></div>
+            <div class="work-list1">
+                <div class="work-item1 ui1">
+                    <div class="tips">
+                        <p>Tips</p>
+                    </div>
+                   <div class="brad1">
+                    <div class="content">
+                        <h1>Youtube</h1>
+                        <div class="arrow">
+                            <div class="bont">
+                                <p></p>
+                            </div>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="work-item1 ui2">
+                    <div class="tips">
+                        <p>Tips</p>
+                    </div>
+                    <div class="brad1">
+                        <div class="content">
+                            <h1>Phonepe</h1>
+                        <div class="arrow">
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="work-item1 ui3">
+                    <div class="tips">
+                        <p>Tips</p>
+                    </div>
+                    <div class="brad1">
+                        <div class="content">
+                            <h1>Diabetes</h1>
+                        <div class="arrow">
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <section id="status" class="works">
+            <div class="k1"><h2>Status</h2></div>
+            <p>Upcoming Works</p>
+            <div class="work-list2">
+                <div class="work-item2 ui4">
+                   <div class="brad1">
+                    <div class="content">
+                        <h1>Airbnb</h1>
+                        <div class="arrow">
+                            <div class="bont">
+                                <p></p>
+                            </div>
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="work-item2 ui5">
+                    <div class="brad1">
+                        <div class="content">
+                            <h1>Copper</h1>
+                        <div class="arrow">
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="work-item2 ui6">
+                    <div class="brad1">
+                        <div class="content">
+                            <h1>Flipkart</h1>
+                        <div class="arrow">
+                            <i class="fa-solid fa-arrow-down-long"></i>
+                        </div>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+    <div class="container2" id="contact">
+        <div class="form-section">
+            <h2>Let's <span class="highlight">get in</span> touch!</h2>
+            <form action="#">
+                <div class="input-group l1">
+                    <input type="text" placeholder="First name" required>
+                </div>
+                <div class="input-group l2">
+                    <input type="email" placeholder="Email address" required>
+                </div>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <ul>
+                <li><span class="icon">📞</span> +91 9789 4627 37</li>
+                <li><span class="icon">✉️</span> saravanakumar8787@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+        <footer>
+            <p>@ Created By Saravanakumar</p>
+            <div class="footer-menu">
+                <a href="#home">Home</a>
+                <a href="#works">Works</a>
+                <a href="#resume">Resume</a>
+                <a href="#skills">Skills</a>
+                <a href="#Blog">Blog</a>
+                <a href="#Status">Status</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
